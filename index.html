@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Style.css">
+        <h2>FACE RECOGNITION WEB APP</h2>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <center>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+            <label>webcam view - </label>
+          <div id="camera"></div>
+          <button onclick="take_snapshot()" id="take_picture_button">Take picture</button>
+          
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <label>Snapshot - </label>
+            <div id="result"></div>
+            <button onclick="check()">Show attendence</button>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <label>Person 1 </label>
+                <p id="result_person1"></p>
+             
+                <label>Person 2</label>
+                <p id="result_person2"></p>
+              </div> 
+            </div>
+            </center>
+            </div>
+            <script src="Main.js"></script>
+            <span>Made By Paarthan</span>
+        </body>
+</html>

@@ -1,0 +1,21 @@
+html
+{
+    text-align: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+h2
+{
+    text-shadow: white 4px 4px ;
+    text-align: center;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+span
+{
+  background-color: orangered;
+}
